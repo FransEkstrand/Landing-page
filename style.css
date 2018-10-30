@@ -1,10 +1,10 @@
-background {
-    background-color: #D3BFBF
+.background {
+    background-color: #D3BFbf;
 }
 
 .navbar a {
     float: left;
-    color: #f2f2f2;
+    color: #3d3b3b;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
