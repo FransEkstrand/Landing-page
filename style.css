@@ -22,6 +22,27 @@ header div i {
 
 }
 
-header div img {
-    width: 141px;
+#header-img {
+    width: 121px;
+    height: 62px;
+}
+
+.na-ana {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+#shopping-cart {
+    display: flex;
+    align-content: flex-end;
+}
+
+#item-list {
+   justify-content: flex-start
+}
+
+#test1 {
+    display: flex;
+    align-items: flex-start
 }
