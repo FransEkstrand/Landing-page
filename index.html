@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,16 +10,18 @@
 </head>
 <header id="header">
     <div class="navbar">
-      <img src="https://cdn.discordapp.com/attachments/353605546009427978/506742305676591104/Screenshot_6_1.png" >
-      <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">News</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">About</a></li>
-          </ul>
+        <nav id="nav-bar">
+            <img id="heder-img" src="https://cdn.discordapp.com/attachments/353605546009427978/506742305676591104/Screenshot_6_1.png">
+            <ul>
+                <li class="nav-link"><a href="#">Home</a></li>
+                <li class="nav-link"><a href="#">Contact</a></li>
+                <li class="nav-link"><a href="#">About</a></li>
+            </ul>
+        </nav>
     </div>
 
 </header>
+
 <body class="background">
 
     <div class="video">
@@ -27,5 +30,11 @@
     <div class="pictures">
 
     </div>
+    <script>
+        const projectName = 'product-landing-page';
+        localStorage.setItem('example_project', 'Product Landing Page');
+    </script>
+
 </body>
+
 </html>
