@@ -8,6 +8,7 @@
     background-color: #D3BFBF;
 }
 
+
 /* ul {
     float: left;
     color: #0c0101;
@@ -54,7 +55,7 @@
 
 .fas {
     font-size: 30px;
-    color: #eee;
+    color: #707070;
     margin: 6px;
 }
 
@@ -68,10 +69,14 @@ header {
 }
 
 #item-list {
-    justify-content: flex-start
+    justify-content: flex-start;
 }
 
 #test1 {
     display: flex;
-    align-items: flex-start
+    align-items: flex-start;
 } */
+
+#video {
+    width: 100%;
+}
