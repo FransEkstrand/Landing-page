@@ -8,26 +8,7 @@
     background-color: #D3BFBF;
 }
 
-
-/* ul {
-    float: left;
-    color: #0c0101;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: space-between;
-
-} */
-
-/* header div i {
-    font-size: 30px;
-
-
-} */
+/* --------------------- NavBar --------------------------- */
 
 #header-img {
     width: 121px;
@@ -40,6 +21,27 @@
     align-items: center;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+li a {
+    display: block;
+    color: #707070;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(209, 208, 208);
+    border-radius: 7%;
+}
 .link-items {
     display: flex;
 }
@@ -47,12 +49,12 @@
 .left {
     display: flex;
     align-items: center;
+    color
 }
 
 .nav-link {
     margin: 6px;
 }
-
 .fas {
     font-size: 30px;
     color: #707070;
@@ -62,21 +64,12 @@
 header {
     background-color: #fff;
 }
-
-/* #shopping-cart {
-    display: flex;
-    align-content: flex-end;
-}
-
-#item-list {
-    justify-content: flex-start;
-}
-
-#test1 {
-    display: flex;
-    align-items: flex-start;
-} */
-
+ /* -------------------------- Video -------------------------- */ 
 #video {
     width: 100%;
+}
+
+form {
+    display: flex;
+    justify-content: center;
 }
