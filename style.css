@@ -44,7 +44,7 @@ li a {
 }
 
 li a:hover {
-    background-color: rgb(209, 208, 208);
+    background-color: rgb(230, 230, 230);
     border-radius: 7%;
 }
 
@@ -55,7 +55,6 @@ li a:hover {
 .left {
     display: flex;
     align-items: center;
-    color
 }
 
 .nav-link {
@@ -76,11 +75,10 @@ header {
 #video {
     width: 100%;
 }
-
+/*-------------------------- Contact -------------------------------*/
 form {
     display: flex;
     justify-content: center;
-    /* padding: 30px; */
     display: flex;
     flex-direction: column;
     position: relative;
