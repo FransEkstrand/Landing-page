@@ -153,11 +153,12 @@ p {
 
 /* ------------------------- footer -------------------- */
 
-#end div a p {
+#end  {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     color: white;
     margin: auto;
     background-color: gray;
     flex-direction: row;
 }
+
