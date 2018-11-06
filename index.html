@@ -17,7 +17,7 @@
         <div class="left">
             <img id="header-img" src="https://cdn.discordapp.com/attachments/353605546009427978/506742305676591104/Screenshot_6_1.png">
 
-            <!-- <i class="fas fa-list-ul" id="item-list"></i> -->
+            <!-- <i class="fas1 fa-list-ul" id="item-list"></i> -->
             <a href="#"> <i class="fas fa-shopping-cart" id="shopping-cart"></i> </a>
 
 
@@ -71,12 +71,9 @@
     <!---------------------------------------------------------------------->
 
 
-    <script>
-        const projectName = 'product-landing-page';
-        localStorage.setItem('example_project', 'Product Landing Page');
-    </script>
 
-    <form action="https://www.freecodecamp.com/email-submit" id="form">
+
+    <form action="#" id="form">
 
         <input type="email" id="email" name="email" placeholder="Enter an email address" required="">
         <input type="submit" id="submit" value="Submit email">
@@ -87,24 +84,28 @@
     <footer id="end">
         <div>
             <a href="#">
-                <p><i class="fas fa-truck"></i>shiping</p>
+                <p id="emblems"><i class="fas fa-truck"></i>shiping</p>
             </a>
         </div>
         <div>
             <a href="#">
-                <p>return</p>
+                <p id="emblems"><i class="fas fa-undo"></i>return</p>
             </a>
         </div>
         <div>
             <a href="#">
-                <p>customer service</p>
+                <p id="emblems"><i class="fas fa-user-friends"></i>customer service</p>
             </a>
         </div>
 
     </footer>
-    <!------------------------------- footer ------------------------------>
+    
 </body>
-
+   <!-------------------------------- Script ---------------------------->
+   <script>
+    const projectName = 'product-landing-page';
+    localStorage.setItem('example_project', 'Product Landing Page');
+</script>
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
     window.onscroll = function () {
         myFunction()
