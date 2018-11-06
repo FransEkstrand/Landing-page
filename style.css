@@ -115,14 +115,14 @@ form {
 
 /* ----------------- items --------------- */
 
-#content {
+.content {
     letter-spacing: 0.8px;
     word-spacing: 2.2px;
     font-size: 13px;
     color: #707070;
 }
 
-.container {
+#container {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -135,7 +135,7 @@ p {
     padding: 5px;
 }
 
-.container div {
+#container div {
     padding: 35px 35px 40px;
     margin: 30px 8px 0px;
     border: 1px rgb(230, 230, 230) solid;
@@ -181,7 +181,7 @@ p {
 
 }
 
-#emblems {
+.container #emblems {
     display: flex;
     align-items: center;
 }
@@ -232,6 +232,6 @@ footer a:hover {
     #shopping-cart {
         display: none;
     }
-    
-    
+
+
 }
