@@ -17,8 +17,8 @@
         <div class="left">
             <img id="header-img" src="https://cdn.discordapp.com/attachments/353605546009427978/506742305676591104/Screenshot_6_1.png">
 
-            <!-- <i class="fas fa-list-ul" id="item-list"></i> -->
-            <a href="#"> <i class="fas fa-shopping-cart" id="shopping-cart"></i> </a>
+            <a href="#"><i class="fas fa-list-ul" id="item-list" display="none"></i>
+            <a href="#"><i class="fas fa-shopping-cart" id="shopping-cart"></i> </a>
 
 
         </div>
@@ -44,32 +44,33 @@
     </div>
 
     <!-- -------------------------- items ------------------------- -->
-    <section>
-        <div>
-            <p></p>
-        </div>
-        <div>
-            <p></p>
-        </div>
-        <div>
-            <p></p>
-        </div>
-    </section>
+
     <div class="container">
         <div class="box1">
+            
             <img src="https://p.widencdn.net/img/citizenwatch/lnqdqcuimz/180px/Promaster%20Tsuno%20Chronograph%20Racer.png?u=41zuoe"
                 alt="klocka1">
             <h4>Promaster Tsuno Chronograph Racer</h4>
             <p>895€</p>
             <button class="ila">SELECT</button>
+            
+            <div>
+            <p id="content">Tsuno Chrono Racer features 1/5-second chrono, alarm, tachymeter, instaneous flyback, power reserve and date. Seen here in a stainless steel case and bracelet with azure and black dial. Featuring our Eco-Drive technology – powered by light, any light. Never needs a battery.
+                </p>
+            </div>
         </div>
 
         <div class="box2">
+
             <img src="https://p.widencdn.net/img/citizenwatch/qkj0daee32/180px/Promaster%20Tsuno%20Chronograph%20Racer.png?u=41zuoe"
                 alt="klocka2">
             <h4>Promaster Tsuno Chronograph Racer</h4>
             <p>895€</p>
             <button class="ila">SELECT</button>
+            <div>
+            <p id="content">CITIZEN Limited Edition Tsuno Chrono Racer features 1/5-second chrono, alarm, tachymeter, instantaneous flyback, power reserve and date. Seen here in a stainless steel case, dark brown leather strap with white constrast stitching and parchment and black dial. Featuring our Eco-Drive technology – powered by light, any light. Never needs a battery.
+            </p>
+            </div>
         </div>
 
         <div class="box3">
@@ -78,6 +79,10 @@
             <h4>Promaster Tsuno Chronograph Racer</h4>
             <p>795€</p>
             <button class="ila">SELECT</button>
+            <div>
+            <p id="content">the Tsuno Chrono Racer features 1/5-second chrono, alarm, tachymeter, instantaneous fly back, power reserve and date. Seen here in a black ion-plated stainless steel case, black leather strap with red constrast stitching and black and silver dial. Featuring our Eco-Drive technology – powered by light, any light. Never needs a battery.
+            </p>
+            </div>
         </div>
     </div>
     <!---------------------------------------------------------------------->
@@ -88,8 +93,8 @@
         localStorage.setItem('example_project', 'Product Landing Page');
     </script>
 
-    <form action="https://www.freecodecamp.com/email-submit" id="form">
-
+    <form action="#" id="form">
+        <h4 id="moon-key">Sign in to our news letter</h4>
         <input type="email" id="email" name="email" placeholder="Enter an email address" required="">
         <input type="submit" id="submit" value="Submit email">
 

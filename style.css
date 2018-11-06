@@ -15,6 +15,10 @@
     height: 62px;
 }
 
+#item-list {
+    display: none;
+}
+
 #nav-bar {
     display: flex;
     justify-content: space-between;
@@ -111,6 +115,13 @@ form {
 
 /* ----------------- items --------------- */
 
+#content {
+    letter-spacing: 0.8px;
+    word-spacing: 2.2px;
+    font-size: 13px;
+    color: #707070;
+}
+
 .container {
     display: flex;
     justify-content: center;
@@ -150,6 +161,12 @@ p {
     border-radius: 7%;
 }
 
+#moon-key {
+    font-family: sans-serif;
+    color: #707070;
+    margin-top: 15px;
+}
+
 
 /* ------------------------- footer -------------------- */
 
@@ -181,4 +198,40 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+/*----------------- Media ----------------*/
+
+@media only screen and (max-width: 375px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        color: #707070;
+        flex-direction: column;
+    }
+
+    #end {
+        display: none;
+    }
+
+    #submit {
+        margin-bottom: 30px;
+    }
+
+    #item-list {
+        display: flex;
+        justify-i: flex-end;
+    }
+
+    .right {
+        display: none;
+    }
+
+    #shopping-cart {
+        display: none;
+    }
+    
+    
 }
