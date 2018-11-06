@@ -17,7 +17,7 @@
         <div class="left">
             <img id="header-img" src="https://cdn.discordapp.com/attachments/353605546009427978/506742305676591104/Screenshot_6_1.png">
 
-            <!-- <i class="fas1 fa-list-ul" id="item-list"></i> -->
+            <!-- <i class="fas fa-list-ul" id="item-list"></i> -->
             <a href="#"> <i class="fas fa-shopping-cart" id="shopping-cart"></i> </a>
 
 
@@ -42,7 +42,19 @@
         <video autoplay muted loop src="//embed.widencdn.net/stream/hd/citizenwatch/pukltcxbxg/tsuno-chrono-trend-interlude.mp4?u=41zuoe"
             type="video/mp4" id="video"></video>
     </div>
+
     <!-- -------------------------- items ------------------------- -->
+    <section>
+        <div>
+            <p></p>
+        </div>
+        <div>
+            <p></p>
+        </div>
+        <div>
+            <p></p>
+        </div>
+    </section>
     <div class="container">
         <div class="box1">
             <img src="https://p.widencdn.net/img/citizenwatch/lnqdqcuimz/180px/Promaster%20Tsuno%20Chronograph%20Racer.png?u=41zuoe"
@@ -71,9 +83,12 @@
     <!---------------------------------------------------------------------->
 
 
+    <script>
+        const projectName = 'product-landing-page';
+        localStorage.setItem('example_project', 'Product Landing Page');
+    </script>
 
-
-    <form action="#" id="form">
+    <form action="https://www.freecodecamp.com/email-submit" id="form">
 
         <input type="email" id="email" name="email" placeholder="Enter an email address" required="">
         <input type="submit" id="submit" value="Submit email">
@@ -84,28 +99,24 @@
     <footer id="end">
         <div>
             <a href="#">
-                <p id="emblems"><i class="fas fa-truck"></i>shiping</p>
+                <p><i class="fas fa-truck"></i>shiping</p>
             </a>
         </div>
         <div>
             <a href="#">
-                <p id="emblems"><i class="fas fa-undo"></i>return</p>
+                <p> <i class="fas fa-undo-alt"></i>return</p>
             </a>
         </div>
         <div>
             <a href="#">
-                <p id="emblems"><i class="fas fa-user-friends"></i>customer service</p>
+                <p><i class="fas fa-user-friends"></i>customer service</p>
             </a>
         </div>
 
     </footer>
-    
+    <!------------------------------- footer ------------------------------>
 </body>
-   <!-------------------------------- Script ---------------------------->
-   <script>
-    const projectName = 'product-landing-page';
-    localStorage.setItem('example_project', 'Product Landing Page');
-</script>
+
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
     window.onscroll = function () {
         myFunction()

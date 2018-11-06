@@ -61,7 +61,7 @@ li a:hover {
     margin: 6px;
 }
 
-header nav div a i  {
+header nav div a i {
     font-size: 30px;
     color: #707070;
     margin: 6px;
@@ -153,13 +153,15 @@ p {
 
 /* ------------------------- footer -------------------- */
 
-#end  {
+#end {
     display: flex;
     justify-content: center;
     margin: auto;
     background-color: gray;
     flex-direction: row;
     padding: 10px;
+
+
 }
 
 #emblems {
@@ -170,4 +172,13 @@ p {
 footer div i {
     color: #fff;
 
+}
+
+footer a {
+    text-decoration: none;
+    font-family: sans-serif,
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
